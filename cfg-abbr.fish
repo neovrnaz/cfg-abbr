@@ -1,5 +1,7 @@
 set -g __neovrnaz_cfg_abbr_version 0.0.1
 
+abbr config '/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
 abbr c 'config'
   
 abbr ca 'config add'
